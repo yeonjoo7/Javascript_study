@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/clock.js"></script>
+    <script defer src="./js/quotes.js"></script>
+    <script defer src="./js/backgrounds.js"></script>
+    <script defer src="./js/todo.js"></script>
+    <script defer src="./js/apikey.js"></script>
+    <script defer src="./js/weather.js"></script>
+    <script defer src="./js/greetings.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum Clone</title>
+</head>
+<body background="">
+    <div id="weather" class="displayWeather"> 
+        <span></span>
+        <span></span>
+    </div>
+    <div class="displayCenter">
+        <h2 id="clock">00:00:00</h2>
+        <form class="hidden" id="login-Form">
+            <div>What's your name?</div>
+            <input required maxlength="16" type="text" class="inputName">
+            <input class="hidden" type="submit" value="Log In">
+        </form>
+        <h1 class="hidden" id="greeting"></h1>
+        <form class="hidden" id="todo-Form">
+            <div>What do you want to do for today? Make a 3-item to-do list!</div>
+            <input required type="text" class="inputTodo">
+        </form>
+        <ul id="todo-List"></ul>
+    </div>
+    <div class="displayQuotes" id="quote">
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>

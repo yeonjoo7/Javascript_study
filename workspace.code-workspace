@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\wecode"
+		},
+		{
+			"name": "thumbnail_maker",
+			"path": "..\\..\\wecode\\test\\thumbnail_maker"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wecode"
+	}
+}

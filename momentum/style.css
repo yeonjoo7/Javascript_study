@@ -1,0 +1,86 @@
+* {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-size: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.displayWeather {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top:  16px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 224, 224);
+}
+
+#wicon {
+    inline-size: fit-content
+}
+
+.displayCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+}
+
+#clock {
+    font-size: 100px;
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(224, 224, 224);
+}
+
+.inputName, .inputTodo {
+    height: 30px;
+    width: 60%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(202, 202, 202);
+    color: rgb(224, 224, 224);
+}
+
+#todo-List {
+    position: static;
+    left: 50%;
+    top: 10%;
+    transform: translate(50%, 0%);
+    background-color: transparent;
+    width:50%;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    inline-size: fit-content;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.displayQuotes {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 224, 224);
+    text-align: center;
+}
+
