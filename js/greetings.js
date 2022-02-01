@@ -18,7 +18,8 @@ function handleLoginSubmit(event) {
 function greetingUser(username) {
     const date = new Date()
     const dateHour = date.getHours()
-    if (dateHour >= 12) {
+    console.log(dateHour >= 17)
+    if (dateHour >= 12 && dateHour < 17) {
         greeting.innerText = `Good afternoon, ${username}`
     } else if (dateHour >= 17) {
         greeting.innerText = `Good evening, ${username}`
