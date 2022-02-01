@@ -39,10 +39,24 @@ body {
     color: rgb(224, 224, 224);
 }
 
-#clock {
+#focus {
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: coral;
+    font-size: 25px
+}
+    
+
+#clock, #timer {
     font-size: 100px;
     font-family: 'PT Sans', sans-serif;
     color: rgb(224, 224, 224);
+}
+
+.timerInput {
+    width: 25%;
 }
 
 .inputName, .inputTodo {

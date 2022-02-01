@@ -10,6 +10,7 @@
     <script defer src="./js/apikey.js"></script>
     <script defer src="./js/weather.js"></script>
     <script defer src="./js/greetings.js"></script>
+    <script defer src="./js/focusmode.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Momentum Clone</title>
@@ -20,7 +21,12 @@
         <span></span>
     </div>
     <div class="displayCenter">
-        <h2 id="clock">00:00:00</h2>
+        <div class="toggleClock">
+           <span id="focus">Focus Mode</span>
+           <input class="timerInput hidden" type="text" placeholder="Please input positive numbers like 80(minutes)">
+           <h2 id="clock">00:00:00</h2>
+           <h2 class="hidden" id="timer">00:00:00</h2>
+        </div>
         <form class="hidden" id="login-Form">
             <div>What's your name?</div>
             <input required maxlength="16" type="text" class="inputName">

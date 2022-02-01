@@ -18,7 +18,6 @@ function handleLoginSubmit(event) {
 function greetingUser(username) {
     const date = new Date()
     const dateHour = date.getHours()
-    console.log(dateHour >= 17)
     if (dateHour >= 12 && dateHour < 17) {
         greeting.innerText = `Good afternoon, ${username}`
     } else if (dateHour >= 17) {
@@ -40,5 +39,4 @@ if (localUsername === null) {
     greetingUser(localUsername)
     openTodoForm.classList.remove(HIDDEN_CLASSNAME)
     checkTop3()   // from todo.js
-    console.log(openTodoForm)
 }
